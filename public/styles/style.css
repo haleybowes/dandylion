@@ -185,3 +185,30 @@ textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+main {
+  max-width: 1920px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Tinos', serif; }
+  main .mainHeader {
+    font-family: 'Tinos', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 120px;
+    padding: 0;
+    z-index: 2; }
+  main .mainImage {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 90%;
+    position: relative;
+    bottom: 100px; }
+  main ul {
+    text-align: left; }
+    main ul li {
+      line-height: 1.6;
+      margin: 10px 0;
+      list-style: none; }

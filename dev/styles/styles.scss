@@ -9,5 +9,37 @@ $grey: #333;
 // font-family: 'Tinos', serif;
 // font weights for both = 400, 700
 
+main {
+    max-width: 1920px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    .mainHeader {
+        font-family: 'Tinos', serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-size: 120px;
+        padding: 0;
+        z-index: 2;
+    }
+    
+    .mainImage {
+        margin: 0 auto;
+        width: 800px;
+        max-width: 90%;
+        position: relative;
+        bottom: 100px;
+    }
 
+    ul {
+        text-align: left;
+        li {
+            line-height: 1.6;
+            margin: 10px 0;
+            list-style: none;
+        }
+    }
+}
 
